@@ -21,8 +21,8 @@ import static com.fancv.generator.ProjectConstant.*;
 public class MyCodeGenerator {
     //JDBC配置，请修改为你项目的实际配置
     private static final String JDBC_URL = "jdbc:mysql://192.168.5.86:3306/wk_crm_single?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&tinyInt1isBit=false&serverTimezone=Asia/Shanghai";
-    private static final String JDBC_USERNAME = "app_user";
-    private static final String JDBC_PASSWORD = "WjLjDev!@1f1sab!";
+    private static final String JDBC_USERNAME = "user";
+    private static final String JDBC_PASSWORD = "user";
     private static final String JDBC_DIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
 
     private static final String PROJECT_PATH = System.getProperty("user.dir");//项目在硬盘上的基础路径
